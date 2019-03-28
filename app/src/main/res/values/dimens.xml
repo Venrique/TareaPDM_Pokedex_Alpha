@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_gap">10dp</dimen>
+    <dimen name="medium_gap">25dp</dimen>
+    <dimen name="infoName">40sp</dimen>
+    <dimen name="padding_TB">75dp</dimen>
+    <dimen name="infoDesc">25sp</dimen>
+    <dimen name="pokemons">30dp</dimen>
+</resources>

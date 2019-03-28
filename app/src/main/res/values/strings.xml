@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="text_pokemon_number">Tipo de pokemon:</string>
+    <string name="hint_type_pokemon_id">id del tipo ej. 4</string>
+    <string name="action_search">buscar</string>
+    <string name="text_nothing_to_show">No hay nada que mostrar</string>
+    <string name="text_not_found_message">La busqueda no obtuvo resultados</string>
+</resources>

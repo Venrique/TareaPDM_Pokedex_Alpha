@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PokemonInfo"
+    android:padding="@dimen/medium_gap">
+
+    <TextView
+        android:id="@+id/tv_pokeinfo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/infoName"
+        android:text="Nombre"/>
+
+    <TextView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMAGEN"
+        android:textSize="@dimen/infoName"
+        android:gravity="center"
+        android:paddingTop="@dimen/padding_TB"
+        android:paddingBottom="@dimen/padding_TB"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/infoDesc"
+        android:text="Tipo"
+        android:layout_marginTop="@dimen/small_gap"/>
+
+    <TextView
+        android:id="@+id/tipos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tipos"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/infoDesc"
+        android:text="Habilidades"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="habilidades"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/infoDesc"
+        android:text="Peso"/>
+
+    <TextView
+        android:id="@+id/peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="peso"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/infoDesc"
+        android:text="Altura"/>
+
+    <TextView
+        android:id="@+id/altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="altura"
+        android:layout_weight="1"/>
+
+</LinearLayout>
