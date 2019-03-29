@@ -83,8 +83,8 @@ class PokemonInfo : AppCompatActivity() {
                 for(e in 0..pokeType.length()-1) listaT.add(e,pokeType.getJSONObject(e).getJSONObject("type").getString("name"))
 
                 infoPokeInfo?.setText(listaP.toString())
-                infoPokePeso?.setText((jsonPokemons.getInt("weight")/10).toString() + " Kg")
-                infoPokeAltura?.setText((jsonPokemons.getInt("height")/10).toString() +" m")
+                infoPokePeso?.setText((jsonPokemons.getDouble("weight")/10.0).toString() + " Kg")
+                infoPokeAltura?.setText((jsonPokemons.getDouble("height")/10.0).toString() +" m")
                 infoPokeTipo?.setText(listaT.toString())
                 //pokeArray.getJSONObject(0).getJSONObject("pokemon").getString("name")
             } else {
