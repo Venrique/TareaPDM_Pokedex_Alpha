@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:textSize="@dimen/pokemons"
         android:text="Nombre"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
         android:layout_marginBottom="@dimen/medium_gap"/>
 
 

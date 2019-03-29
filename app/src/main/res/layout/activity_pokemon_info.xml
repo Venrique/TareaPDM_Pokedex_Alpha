@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".PokemonInfo"
+    android:background="@color/colorPrimaryDark"
     android:padding="@dimen/medium_gap">
 
     <TextView
@@ -13,18 +14,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/infoName"
-        android:text="Nombre"/>
+        android:text="Nombre"
+        android:layout_marginBottom="@dimen/small_gap"
+        android:textColor="@color/colorAccent"/>
 
-    <TextView
+    <ImageView
         android:id="@+id/imagen"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="IMAGEN"
-        android:textSize="@dimen/infoName"
+        android:layout_height="200dp"
         android:gravity="center"
-        android:paddingTop="@dimen/padding_TB"
-        android:paddingBottom="@dimen/padding_TB"
-        android:background="@color/colorAccent"/>
+        android:background="@color/colorPrimary"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -38,20 +37,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="tipos"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/infoDesc"
-        android:text="Habilidades"/>
+        android:text="Habilidades"
+        />
 
     <TextView
         android:id="@+id/info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="habilidades"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -64,7 +67,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="peso"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -77,6 +81,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="altura"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"/>
 
 </LinearLayout>

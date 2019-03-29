@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
+    android:background="@color/colorPrimaryDark"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -16,7 +16,8 @@
             android:id="@+id/tv_label_pokemon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text_pokemon_number" />
+            android:text="@string/text_pokemon_number"
+            android:textColor="@color/colorAccent"/>
 
         <EditText
             android:id="@+id/et_pokemon_number"
@@ -27,7 +28,8 @@
             android:layout_alignParentLeft="true"
             android:drawablePadding="@dimen/small_gap"
             android:hint="@string/hint_type_pokemon_id"
-            android:inputType="number" />
+            android:inputType="number"
+            android:textColor="@color/colorAccent"/>
 
         <Button
             android:id="@+id/bt_search_pokemon"
@@ -35,7 +37,8 @@
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@id/et_pokemon_number"
             android:layout_alignParentRight="true"
-            android:text="@string/action_search" />
+            android:text="@string/action_search"
+            android:background="@color/colorAccent"/>
 
 
 
@@ -46,8 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="@dimen/infoName"
-        android:text=""
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="#fff"
         android:layout_marginBottom="@dimen/medium_gap"
         android:padding="@dimen/small_gap"/>
 
